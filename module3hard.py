@@ -18,7 +18,7 @@ def calculate_structure_sum(data_structure):
             total_length += len(element)
 
     traverse_structure(data_structure)
-    return total_sum, total_length
+    return total_sum + total_length
 
 data_structure = [
     [1, 2, 3],
